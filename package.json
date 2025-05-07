@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "16.x",
+    "node": "18.x",
     "npm": ">=6"
   },
   "dependencies": {
@@ -59,18 +59,3 @@
     "collectCoverageFrom": [
       "src/**/*.js"
     ]
-  },
-  "browserslist": {
-    "development": [
-      "last 2 chrome versions",
-      "last 2 firefox versions",
-      "last 2 edge versions"
-    ],
-    "production": [
-      ">1%",
-      "last 4 versions",
-      "Firefox ESR",
-      "not ie < 11"
-    ]
-  }
-}
